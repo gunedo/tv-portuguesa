@@ -12,8 +12,8 @@ A simple Apple TV Template to create your own live tv channel pretty easilly.
 
 5) A USB-C cable to sideload your channel on your Apple TV.
 
-Template is using by default the NASA TV channel, you just need to change the URL in the ViewController.swift to
-your own.  Pretty easy.
+Template is using by default the NASA TV channel, you just need to add your own channels in the **tvstreams.json** file. Check if your json file is valid.
+Pretty easy.
 
 Sample image pack: http://goo.gl/57iH97?gdriveurl
 
