@@ -20,7 +20,9 @@ class ChannelsTableViewController: UITableViewController {
     private var playerItem:AVPlayerItem? = nil
     
     deinit {
-        playerItem!.removeObserver(self, forKeyPath: status)
+        if let _ = playerItem {
+            playerItem!.removeObserver(self, forKeyPath: status)
+        }
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
